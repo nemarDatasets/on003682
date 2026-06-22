@@ -1,0 +1,32 @@
+{
+  "version": "2.0",
+  "dataset_id": "on003682",
+  "source": "openneuro",
+  "source_id": "ds003682",
+  "title": "Model-based aversive learning in humans is supported by preferential task state reactivation",
+  "authors": {
+    "Toby Wise": {},
+    "Yunzhe Liu": {},
+    "Fatima Chowdhury": {},
+    "Raymond J. Dolan": {}
+  },
+  "license": "CC0",
+  "dataset_type": "derivative",
+  "related_identifiers": [
+    {
+      "identifier": "10.18112/openneuro.ds003682.v1.0.0",
+      "identifier_type": "DOI",
+      "relation_type": "IsIdenticalTo"
+    }
+  ],
+  "pipeline_stage": "seeded",
+  "bids_version": "v1.5.0",
+  "recording_modality": [
+    "beh",
+    "meg"
+  ],
+  "datatypes": [
+    "beh",
+    "meg"
+  ]
+}
