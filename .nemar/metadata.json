@@ -1,32 +1,89 @@
 {
   "version": "2.0",
-  "dataset_id": "on003682",
-  "source": "openneuro",
-  "source_id": "ds003682",
+  "pipeline_stage": "enriched",
   "title": "Model-based aversive learning in humans is supported by preferential task state reactivation",
+  "license": "CC0",
+  "dataset_type": "derivative",
   "authors": {
     "Toby Wise": {},
     "Yunzhe Liu": {},
     "Fatima Chowdhury": {},
     "Raymond J. Dolan": {}
   },
-  "license": "CC0",
-  "dataset_type": "derivative",
   "related_identifiers": [
     {
       "identifier": "10.18112/openneuro.ds003682.v1.0.0",
       "identifier_type": "DOI",
       "relation_type": "IsIdenticalTo"
+    },
+    {
+      "identifier": "https://github.com/nemarDatasets/on003682",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on003682",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "10.18112/openneuro.ds003682",
+      "identifier_type": "DOI",
+      "relation_type": "IsDerivedFrom"
     }
   ],
-  "pipeline_stage": "seeded",
-  "bids_version": "v1.5.0",
-  "recording_modality": [
+  "resource_type_general": "Dataset",
+  "modalities": [
     "beh",
     "meg"
   ],
-  "datatypes": [
-    "beh",
-    "meg"
-  ]
+  "resource_type_specific": "Neuroimaging Dataset",
+  "sizes": [
+    "0.0 KB (1 files)"
+  ],
+  "formats": [
+    ".csv",
+    ".dat",
+    ".fif",
+    ".gitattributes",
+    ".gz",
+    ".json",
+    ".log",
+    ".md",
+    ".mgz",
+    ".npy",
+    ".pkl",
+    ".surf",
+    ".tsv",
+    ".txt",
+    ".xfm"
+  ],
+  "description": "This dataset contains magnetoencephalography (MEG) recordings from human subjects engaged in a model-based aversive learning task. The study investigates the neural mechanisms supporting aversive learning by examining task state reactivation patterns during memory consolidation. Raw MEG data are provided as .fif files to support reproducible analysis of learning-related neural dynamics.",
+  "keywords": [
+    {
+      "term": "MEG"
+    },
+    {
+      "term": "aversive learning"
+    },
+    {
+      "term": "model-based learning"
+    },
+    {
+      "term": "task state reactivation"
+    },
+    {
+      "term": "memory consolidation"
+    },
+    {
+      "term": "human neuroimaging"
+    },
+    {
+      "term": "fear learning"
+    },
+    {
+      "term": "threat learning"
+    }
+  ],
+  "source_hash": "4fb8f70e8d64256392cbb5dda07dc4db44ddeb055a70eea911c723dfef368da3"
 }
