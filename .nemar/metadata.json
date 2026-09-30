@@ -2,7 +2,7 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "Model-based aversive learning in humans is supported by preferential task state reactivation",
-  "description": "This derivative dataset contains processed MEG data from a study investigating the neural mechanisms of model-based aversive learning in humans. The research examines how task state representations are preferentially reactivated during aversive learning, providing insights into the computational and neural basis of threat-related decision-making and learning processes.",
+  "description": "This dataset contains raw and processed magnetoencephalography (MEG) recordings from a study of model-based aversive learning in humans. The study examines how learning about aversive outcomes is supported by preferential reactivation of task states. Raw data are provided as .fif files, alongside derived processed data.",
   "license": "CC0",
   "dataset_type": "derivative",
   "authors": {
@@ -19,13 +19,18 @@
       "term": "aversive learning"
     },
     {
-      "term": "task state reactivation"
-    },
-    {
       "term": "model-based learning"
     },
     {
-      "term": "neural representation"
+      "term": "task state reactivation"
+    },
+    {
+      "term": "Magnetoencephalography",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D015225"
+    },
+    {
+      "term": "Reinforcement learning"
     }
   ],
   "related_identifiers": [
@@ -57,7 +62,7 @@
     "meg"
   ],
   "sizes": [
-    "324.3 GB (1947 files)"
+    "302 GB (1947 files)"
   ],
   "formats": [
     ".csv",
@@ -77,5 +82,6 @@
     ".xfm",
     ".yml"
   ],
+  "methods_description": "MEG data were acquired on a CTF system and are provided as .fif files. Processing was performed with custom Python scripts.",
   "source_hash": "17e01b773204a2e8d11716961835c5799ac73995e632aeb00aa932e13e40409d"
 }
